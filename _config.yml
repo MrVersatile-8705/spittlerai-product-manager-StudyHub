@@ -1,0 +1,35 @@
+# Jekyll Configuration for SpittlerAI Product Manager StudyHub
+title: "SpittlerAI Product Manager StudyHub"
+description: "Blending strategy, data, and innovation to deliver AI products with measurable impact."
+url: ""
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Navigation
+header_pages:
+  - index.md
+  - about.md
+  - core-knowledge.md
+  - projects.md
+  - portfolio.md
+  - career-positioning.md
+  - resources.md
+  - learning-log.md
+
+# Author info
+author:
+  name: "AI Product Manager"
+  email: ""
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - Structure
